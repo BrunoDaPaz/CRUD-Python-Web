@@ -6,22 +6,24 @@ CRUD em Python Web
 
 <p>Com a aplicação aberta na IDE Pycharm, abrir o CMD em modo Administrador e executar os seguintes comandos para ativação dos scripts:</p> 
 
-- cd testOlist
-- cd venv/Scripts
-- activate
+- C:\\> cd testOlist
+- C:\testeOlist> cd venv/Scripts
+- C:\testeOlist\venv\Scripts> activate
 
-<p>Ao ser ativo apresentará "(venv)" no início da linha de comando;
-executar o comando para instalação do banco de dados:</p>
+<p>Ao ser ativado apresentará "(venv)" no início da linha de comando;</p>
 
-- pip install django
+<p>Executar o comando para instalação do banco de dados:</p>
+
+- (venv) C:\testeOlist\venv\Scripts> pip install django
+
 <p>Executar os comandos para criação das tabelas no banco de dados:</p>
 
-- python manage.py makemigrations
-- python manage.py migrate
+- (venv) C:\testeOlist> python manage.py makemigrations
+- (venv) C:\testeOlist> python manage.py migrate
 
 <p>Voltar ao caminho inicial da pasta do projeto e executar:</p>
 
-- python manage.py runserver
+- (venv) C:\testeOlist> python manage.py runserver
 
 # Ambiente de Trabalho
 
